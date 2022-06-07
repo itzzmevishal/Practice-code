@@ -4,6 +4,7 @@
 int main()
 {
 int num,guess,attempts=1;
+
 srand(time(0));
 num=rand()%100+1;
 //printf("The number is %d \n",num);
